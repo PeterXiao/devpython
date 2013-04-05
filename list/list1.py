@@ -40,3 +40,6 @@ dic.update({'banana':3})
 print(dic)
 
 print(dic['orange'])
+
+dic.clear()
+print(dic)

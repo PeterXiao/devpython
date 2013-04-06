@@ -5,5 +5,6 @@ numberyears = int(input("Years:")) #年数
 year= 1
 while year <= numberyears:
     principal = principal*(1+rate)
-    print(year,principal)
+    #print(year,principal)
+    print(format(year,"3d"),format(principal,"0.2f"))
     year +=1

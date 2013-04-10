@@ -12,8 +12,20 @@ def countdown(n):
         return
     return next
 #test
-next = countdown(10)
+'''next = countdown(10)
 while True:
     v = next()
     print(v)
-    if not v :break
+    if not v :break'''
+
+def coutdown2(n):
+    print("Counting down from %d" %n)
+    try:
+        while n>0:
+            yield n
+            n = n-1
+            print(n)
+    except GeneratorExit:
+        print("Only made it to %d"%n)
+
+coutdown2(10)

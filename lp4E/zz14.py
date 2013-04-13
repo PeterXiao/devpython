@@ -20,5 +20,29 @@ def z15():
                 break
     print(n)
 #z15()
-def z14():
-    
+def z16():
+    '''
+    卖鱼，第一次卖了二分之一加二分之一条
+         第二次卖了三分之一加三分之一条
+         。。。
+         第四次卖了四分之一加四分之一条
+         余下十一条，问一开始是多少条
+    '''
+    n = 23
+    nn =5
+    falg =0
+    while falg == 0:
+        n+=2
+        ss=n
+        for i in range(1,5):
+            s,y=divmod(ss+1,(i+1))
+            if y ==0:
+                ss-=s
+                flag=1
+            else:
+                flag = 0
+                break
+    print(n)
+
+
+z16()

@@ -18,6 +18,8 @@ def factorial(x):
     return x * factorial(x-1)
 print(factorial(10))
 
+
+
 '''
 （1）递归就是在过程或函数里调用自身；
 （2）在使用递归策略时，必须有一个明确的递归结束条件，称为递归出口。

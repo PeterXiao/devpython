@@ -1,4 +1,5 @@
 __author__ = 'Administrator'
+#pip install tornado
 import win32file
 def frrespaceodisk(dir):
       sectorsPerCluster, bytesPerSector, numFreeClusters, totalNumClusters = win32file.GetDiskFreeSpace(dir)

@@ -19,8 +19,14 @@ def startthread():
     t3.start()
     t4.start()
     t5.start()
+    t1._stop()
+    t2._stop()
+    t3._stop()
+    t4._stop()
+    t5._stop()
     pass
 
 if __name__ == '__main__':
-    startthread()
+    for i in range(0,10):
+        startthread()
     pass

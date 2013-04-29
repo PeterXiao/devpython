@@ -39,3 +39,4 @@ class opened(object):
 with opened('foo.txt') as f:
 #  使用已打开的文件对象f的语句
 '''
+

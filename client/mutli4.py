@@ -10,6 +10,9 @@ def slow_worker():
 
 
 
+
+
+
 if __name__ == '__main__':
     p = multiprocessing.Process(target=slow_worker)
     print 'BEFORE:', p, p.is_alive()

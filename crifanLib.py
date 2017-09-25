@@ -1778,65 +1778,65 @@ if __name__ == "crifanLib":
     #print "gVal['picSufChars']=",gVal['picSufChars'];
     print
     "Imported: %s,\t%s" % ( __name__, __VERSION__);
-Hide
-details
-Change
-log
-r39
-by
-crifan2003
-on
-Jul
-3, 2013
-Diff
-[crifanLib.py]
-small
-update
-Go
-to:
-Project
-members, sign in to
-write
-a
-code
-review
-Older
-revisions
-r38
-by
-crifan2003
-on
-Jul
-2, 2013
-Diff
-r25
-by
-crifan2003
-on
-May
-3, 2013
-Diff
-r24
-by
-crifan2003
-on
-May
-2, 2013
-Diff
-All
-revisions
-of
-this
-file
-File
-info
-Size: 66900
-bytes, 1755
-lines
-View
-raw
-file
-File
-properties
-svn:eol - style
-native
+# Hide
+# details
+# Change
+# log
+# r39
+# by
+# crifan2003
+# on
+# Jul
+# 3, 2013
+# Diff
+# [crifanLib.py]
+# small
+# update
+# Go
+# to:
+# Project
+# members, sign in to
+# write
+# a
+# code
+# review
+# Older
+# revisions
+# r38
+# by
+# crifan2003
+# on
+# Jul
+# 2, 2013
+# Diff
+# r25
+# by
+# crifan2003
+# on
+# May
+# 3, 2013
+# Diff
+# r24
+# by
+# crifan2003
+# on
+# May
+# 2, 2013
+# Diff
+# All
+# revisions
+# of
+# this
+# file
+# File
+# info
+# Size: 66900
+# bytes, 1755
+# lines
+# View
+# raw
+# file
+# File
+# properties
+# svn:eol - style
+# native

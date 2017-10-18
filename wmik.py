@@ -30,4 +30,4 @@ if __name__ == '__main__':
     wmiService = wmi.WMI()
     while True:
         print getSysInfo(wmiService)
-        time.sleep(3)
+        time.sleep(30)

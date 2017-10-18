@@ -1,8 +1,8 @@
-android 渠道号激活，
-php with vm
-java
-go
-python jswithwebandnode
+# android 渠道号激活，
+# php with vm
+# java
+# go
+# python jswithwebandnode
 #!/usr/bin/env python
 #coding=utf-8
 def opensa():

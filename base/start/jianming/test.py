@@ -1,8 +1,8 @@
 #!/usr/bin/python
-# -*- coding: gbk -*-
+# -*- coding: utf-8 -*-
 if True:
-    print "True"
+    print("True")
 else:
-  print "False"
+  print("False")
 
-print"ÖÐ¹ú"
+print("ä¸­å›½")

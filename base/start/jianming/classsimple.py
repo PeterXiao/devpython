@@ -4,10 +4,10 @@
 
 class Person:
     def sayHi(self):
-        print 'Hello,how are you？'
+        print('Hello,how are you？')
     pass
 
 if __name__ == '__main__':
     p = Person()
-    print p
+    print (p)
     p.sayHi()

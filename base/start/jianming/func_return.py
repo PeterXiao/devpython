@@ -12,5 +12,5 @@ def somFunction():
     pass
 
 if __name__ == '__main__':
-    print maxnuim(1,2)
-    print  somFunction()
+    print( maxnuim(1,2))
+    print ( somFunction())

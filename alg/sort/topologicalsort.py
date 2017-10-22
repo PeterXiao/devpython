@@ -34,5 +34,6 @@ def topological_sort(start, visited, sort):
     return sort
 
 if __name__ == '__main__':
-    sort = topological_sort('a', [], [])
+    for i in range(1000000):
+       sort = topological_sort('a', [], [])
     print(sort)

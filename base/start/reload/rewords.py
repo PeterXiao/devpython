@@ -4,3 +4,5 @@
 print('hello\nworld')
 print('hello\tworld')
 print('helloooo\tworld')
+print('http:\\\\www.google.com')
+print(r'\'\'')  # 转义字符显示原字符

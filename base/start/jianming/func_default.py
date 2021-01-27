@@ -2,8 +2,7 @@
 # -*- coding: UTF-8 -*-
 # 文件名：test*.py
 def say(message ,times =1):
-    print message * times
-
+    print(message * times)
 
 
 if __name__ == '__main__':

@@ -3,13 +3,12 @@
 # 文件名：test.py
 
 # 第一个注释
-print "Hello, Python!";  # 第二个注释
-
+print("Hello, Python!")  # 第二个注释
 
 total = 1+ \
     2+\
     3
-print total
+print(total)
 
 day =['Monday','Tuesday',
       'Wednesday','Thursday','Friday']

@@ -6,4 +6,4 @@ import mymodule
 
 if __name__ == '__main__':
     mymodule.sayhi()
-    print 'Version',mymodule.version
+    print('Version', mymodule.version)

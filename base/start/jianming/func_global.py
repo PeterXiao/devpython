@@ -6,13 +6,12 @@
 def func():
     global x
 
-    print 'x is', x
+    print('x is', x)
     x = 2
-    print 'Changed local x to', x
-
+    print('Changed local x to', x)
 
 
 if __name__ == '__main__':
     x = 50
     func()
-    print 'Value of x is', x
+    print('Value of x is', x)

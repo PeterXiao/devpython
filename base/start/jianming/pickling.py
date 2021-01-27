@@ -3,6 +3,7 @@
 # 文件名：test*.py
 import cPickle as p
 #import pickle as p
+from openpyxl.compat import file
 
 shoplistfile = 'shoplist.data'
 # the name of the file where we will store the object
@@ -19,8 +20,7 @@ del shoplist # remove the shoplist
 # Read back from the storage
 f = file(shoplistfile)
 storedlist = p.load(f)
-print storedlist
-
+print(storedlist)
 
 if __name__ == '__main__':
-    print 'hell'
+    print('hello)

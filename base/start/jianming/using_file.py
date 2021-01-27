@@ -3,7 +3,6 @@
 # 文件名：test*.py
 
 
-
 if __name__ == '__main__':
     poem = '''\
     Programming is fun
@@ -22,6 +21,6 @@ if __name__ == '__main__':
         line = f.readline()
         if len(line) == 0:  # Zero length indicates EOF
             break
-        print line,
+        print(line, end=' ')
         # Notice comma to avoid automatic newline added by Python
     f.close()  # close the file

@@ -10,12 +10,11 @@ def printMax(x, y):
     y = int(y)
 
     if x > y:
-        print x, 'is maximum'
+        print(x, 'is maximum')
     else:
-        print y, 'is maximum'
-
+        print(y, 'is maximum')
 
 
 if __name__ == '__main__':
     printMax(3, 5)
-    print printMax.__doc__
+    print(printMax.__doc__)

@@ -11,10 +11,10 @@ def tryfin():
             if len(line) == 0:
                 break
             time.sleep(2)
-            print line,
+            print(line, end=' ')
     finally:
         f.close()
-        print 'Cleaning up...closed the file'
+        print('Cleaning up...closed the file')
 
 
 if __name__ == '__main__':

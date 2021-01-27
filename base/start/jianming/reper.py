@@ -16,6 +16,6 @@ def powersum(power, *args):
 if __name__ == '__main__':
     i = []
     i.append('item')
-    print i
-    print defrepr(i)
-    print repr(i)
+    print(i)
+    print(defrepr(i))
+    print(repr(i))

@@ -3,19 +3,21 @@
 # 文件名：test*.py
 import sys
 
+from past.builtins import raw_input
+
 try:
     s = raw_input('Enter something --> ')
 except EOFError:
-    print '\nWhy did you do an EOF on me?'
+    print('\nWhy did you do an EOF on me?')
     sys.exit() # exit the program
 except:
-    print '\nSome error/exception occurred.'
+    print('\nSome error/exception occurred.')
     # here, we are not exiting the program
 
 
 
 if __name__ == '__main__':
-    print 'Done'
+    print('Done')
 
 
     class ShortInputException(Exception):
@@ -33,9 +35,9 @@ if __name__ == '__main__':
             raise ShortInputException(len(s), 3)
             # Other work can continue as usual here
     except EOFError:
-        print '\nWhy did you do an EOF on me?'
-    except ShortInputException, x:
-        print 'ShortInputException: The input was of length %d, \
-              was expecting at least %d' % (x.length, x.atleast)
+        print('\nWhy did you do an EOF on me?')
+    except ShortInputException as x:
+        print( 'ShortInputException: The input was of length %d, \
+              was expecting at least %d' % (x.length, x.atleast))
     else:
-        print 'No exception was raised.'
+        print('No exception was raised.')
